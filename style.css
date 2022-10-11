@@ -1,6 +1,6 @@
 body {
-	background-color: #120410;
-	color: #f9e9e9;
+	background-color: #222425;
+	color: #a9a4a8;
 	font-family: "Verdana";
 	padding: 0;
 	margin: 0;
@@ -40,9 +40,9 @@ body {
 		text-align: left;
 	}
 	div.segmentBlock {
-		margin-left: 25px;
+		margin-left: 28px;
 		margin-top: 15px;
-		font-size: 23px;
+		font-size: 22px;
 		letter-spacing: 0px;
 		line-height: 1.6;
 		max-width: 75%;
@@ -59,6 +59,7 @@ body {
 		max-width: 75%;
 		/*text-align: justify;*/
 		text-align: left;
+		background-color: #252222;
 	}
 	a.anchor {
 		display: block;
@@ -76,15 +77,24 @@ body {
 
 h3 {
 	color: #f98585;
-	font-size: 24px;
+	font-size: 25px;
+	letter-spacing: 1.0;
 	font-weight: bold;
-	font-family: "Verdana";
+	font-family: "Courier";
 }
 
 h4 {
+	color: #d98585;
+	margin-left: 10px;
+	font-size: 23px;
+	font-weight: normal;
+	font-family: "Courier";
+}
+
+h5 {
 	color: #f93585;
 	font-size: 24px;
-	font-weight: bold;
+	font-weight: normal;
 	font-family: "Courier";
 	margin-top: 0px;
 	margin-bottom: 0px;
